@@ -83,6 +83,7 @@
       :is-dark="isDark"
       :popover="popover"
       :attributes="attrs"
+      :columns="2"
       @popoverWillShow="logPopoverEvent('popoverWillShow')"
       @popoverDidShow="logPopoverEvent('popoverDidShow')"
       @popoverWillHide="logPopoverEvent('popoverWillHide')"

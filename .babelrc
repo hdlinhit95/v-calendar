@@ -1,4 +1,13 @@
 {
-  "presets": ["@vue/app"],
+  "presets": [
+    [
+      "@vue/app",
+      {
+        "targets": {
+          "ie": "11"
+        }
+      }
+    ]
+  ],
   "plugins": ["@babel/plugin-transform-arrow-functions"]
 }

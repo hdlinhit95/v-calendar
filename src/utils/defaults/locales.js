@@ -20,7 +20,7 @@ const locales = {
   // Dutch
   nl: { dow: 2, L: 'DD.MM.YYYY' },
   // English (US)
-  'en-US': { dow: 1, L: 'MM/DD/YYYY' },
+  'en-US': { dow: 2, L: 'MM/DD/YYYY' },
   // English (Australia)
   'en-AU': { dow: 2, L: 'DD/MM/YYYY' },
   // English (Canada)
